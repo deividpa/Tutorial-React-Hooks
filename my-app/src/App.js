@@ -7,6 +7,7 @@ import AjaxHooks from "./Components/AjaxHooks";
 import HooksPersonalizados from "./Components/HooksPersonalizados";
 import Referencias from "./Components/Referencias";
 import Formularios from "./Components/Formularios";
+import Estilos from "./Components/Estilos";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <Referencias />
       <hr />
       <Formularios />
+      <hr />
+      <Estilos />
     </div>
   );
 }
