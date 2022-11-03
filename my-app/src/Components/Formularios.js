@@ -24,7 +24,7 @@ export default function Formularios() {
           onChange={(e) => setNombre(e.target.value)}
         />
         <h4>Seleccionar País</h4>
-        <label htmlFoR="colombia">Colombia</label>
+        <label htmlFor="colombia">Colombia</label>
         <input
           type="radio"
           id="colombia"
@@ -34,7 +34,7 @@ export default function Formularios() {
             setPais(e.target.value);
           }}
         />
-        <label htmlFoR="argentina">Argentina</label>
+        <label htmlFor="argentina">Argentina</label>
         <input
           type="radio"
           id="argentina"
@@ -43,7 +43,7 @@ export default function Formularios() {
           onChange={(e) => setPais(e.target.value)}
           defaultChecked
         />
-        <label htmlFoR="ecuador">Ecuador</label>
+        <label htmlFor="ecuador">Ecuador</label>
         <input
           type="radio"
           id="ecuador"
